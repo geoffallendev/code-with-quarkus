@@ -11,6 +11,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Happy 2022";
+        return "Happy 2022 - please trigger";
     }
 }
