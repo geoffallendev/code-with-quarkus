@@ -5,6 +5,10 @@ metadata:
   name: code-with-quarkus-example
   namespace: internal-systems
   description: Simple Quarkus Sample
+  annotations:
+    backstage.io/source-location: url:https://github.com/geoffallendev/code-with-quarkus
+    quay.io/repository-slug: "/geoallen/quarkus"
+
 spec:
   type: service
   lifecycle: experimental
