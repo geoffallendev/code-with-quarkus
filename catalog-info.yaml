@@ -1,0 +1,11 @@
+# Example:
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: code-with-quarkus-example
+  namespace: internal-systems
+  description: Simple Quarkus Sample
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:geoffallendev
