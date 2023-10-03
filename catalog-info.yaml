@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: code-with-quarkus-example
-  namespace: internal-systems
+  namespace: devhub-demo
   description: Simple Quarkus Sample
   annotations:
     backstage.io/source-location: url:https://github.com/geoffallendev/code-with-quarkus
