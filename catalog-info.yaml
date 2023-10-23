@@ -14,3 +14,17 @@ spec:
   type: service
   lifecycle: experimental
   owner: "geoffallendev"
+  providesApis:
+    - "code-with-quarkus"
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: "code-with-quarkus"
+  description: "A cool quarkus app"
+spec:
+  type: openapi
+  lifecycle: production
+  owner: "geoffallendev"
+  definition:
+    $text: ./openapi.yaml
